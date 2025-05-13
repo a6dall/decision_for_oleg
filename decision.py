@@ -34,5 +34,5 @@ person = 5
 for dish, ingred in cook_book:
     print(dish.capitalize() + ":")
     for name, weight, unit in ingred:
-        print(f"{name}, {weight}{unit}")
+        print(f"{name}, {weight * person}{unit}")
     print() # вместо этого принта можно добавить \n в начало самого первого принта (35 строка), чтобы было решение в 4 строки, но вывод будет начинатсья с пустой строки
